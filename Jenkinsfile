@@ -3,31 +3,31 @@ pipeline {
   
   stages {
     stage('Checkout') {
-      step {
+      steps {
         // Checkout from git
       }
     }
     
     stage('Install dependencies') {
-      step {
+      steps {
         // Install pods
       }
     }
     
     stage('Build') {
-      step {
+      steps {
         // run xcode build
       }
     }
     
     stage('Test') {
-      step {
+      steps {
         // Run xcode tests
       }
     }
     
     stage('Archive') {
-      step {
+      steps {
         // Run xcode archive
       }
     }
