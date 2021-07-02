@@ -4,31 +4,31 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        // Checkout from git
+        echo Checkout from git
       }
     }
     
     stage('Install dependencies') {
       steps {
-        // Install pods
+        echo Install pods
       }
     }
     
     stage('Build') {
       steps {
-        // run xcode build
+        echo run xcode build
       }
     }
     
     stage('Test') {
       steps {
-        // Run xcode tests
+        echo Run xcode tests
       }
     }
     
     stage('Archive') {
       steps {
-        // Run xcode archive
+        echo Run xcode archive
       }
     }
   }
